@@ -4,19 +4,23 @@
 
 |ID  |  Title                                                                                | Severity      |
 |:---| :------------------------------------------------------------------------------------| :------------ |
-|H-x| Price manipulation                                         | High          |
+|H| Price manipulation                                         | High          |
+|H| Reentrancy & reentrancy guards                                         | High          |
+|H| Incorrect modifiers                                         | High          |
+|H| Case of token being stuck in contract                                         | High          |
 
 # Mediums.
 
 |ID  |  Title                                                                                | Severity      |
 |:---| :------------------------------------------------------------------------------------| :------------ |
-|M-x| Use safeTransfer & safeTransferFrom instead of transfer                                         | Medium          |
+|M| Use safeTransfer & safeTransferFrom instead of transfer                                         | Medium          |
 
 # Lows.
 
 |ID  |  Title                                                                                | Severity      |
 |:---| :------------------------------------------------------------------------------------| :------------ |
-|L-x| Avoid use of hard-coded chainIds and addresses whenever possible                                         | Low          |
+|L| Avoid use of hard-coded chainIds and addresses whenever possible                                         | Low          |
+|L| Arithmetic errors                                         | Low          |
 
 # Informational.
 
